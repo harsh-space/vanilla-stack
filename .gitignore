@@ -1,0 +1,9 @@
+# Ignore huge library folders
+node_modules/
+
+# Ignore sensitive environment variables (passwords/API keys)
+.env
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
