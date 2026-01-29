@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    
+}
+form{
+    width: 100%;
+}
+body{
+    background-color: #fdecec;
+    display: flex;
+    justify-content: center;  
+    align-items: center;       
+    min-height: 100vh;
+}
+.form-space{
+    overflow: hidden;
+    width: 300px;
+    height:auto ;
+    background-color: #FFDAB3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+
+}
+.form-space .form-title{
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    background-color: #574964;
+    font-size: 20px;
+    color:#FFDAB3 ;
+}
+.form-dets {
+    margin-top: 15px;
+    width: 100%;       
+    padding: 0 25px;   
+    display: flex;
+    flex-direction: column;
+}
+.mail, .passwd {
+    
+    height: 25px;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.form-dets input{
+    flex: 1;
+    border-radius: 0 4px 4px 0;
+    border: 1px solid #574964;
+    border-left: none;
+    border: none;
+    height: 25px;
+    outline: none;
+    padding: 0 10px;
+}
+.form-dets i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #574964;
+    color: #FFDAB3;
+    border-radius: 4px 0 0 4px;
+    height: 25px;
+    width: 25px;
+}
+.forgot-link{
+    font-size: 12px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #625050;
+   
+}
+.login-btn{
+    border-radius: 4px 4px 4px 4px;
+
+    margin: 10px 0 0 0;
+    width: 100%;
+    font-size: 16px ;
+    text-align: center;
+    background-color: #574964;
+    color: #FFDAB3;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+.sign-up{
+   margin: 10px 0px 10px 0px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.sign-up p{
+    color: #625050;
+}
+.sign-up a{
+    margin-left: 5px;
+    font-weight: 400;
+ text-decoration: none;
+ color: #625050;
+}
